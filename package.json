@@ -1,0 +1,30 @@
+{
+  "name": "fatumatajalloh",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "main.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjj14/personalSite.git"
+  },
+  "keywords": [
+    "Fatumata's",
+    "personal",
+    "website"
+  ],
+  "author": "Fatumata Jalloh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fjj14/personalSite/issues"
+  },
+  "homepage": "https://github.com/fjj14/personalSite#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "fs": "0.0.1-security",
+    "http-status-codes": "^1.4.0",
+    "pdfreader": "^1.0.7"
+  }
+}

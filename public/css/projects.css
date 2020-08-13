@@ -1,0 +1,161 @@
+
+#Top-nav{    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+    list-style-type:none;
+    margin:0;
+    padding:0;   
+    overflow: hidden;
+    display:block;
+    text-align:center;
+    height:40px;
+    z-index: 1;
+    background-color: white;
+   left:0;
+}
+
+li{
+   display:inline;
+}
+li:hover{
+    color:blue;
+    background-size: 50px 50px;
+}
+
+li:last-child{
+    border-right:none;
+}
+
+li a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    text-align:center;
+    padding: 20px 20px;
+    position:sticky;
+}
+.section{
+    height:500px;
+    width:100%;
+    left:0%;  
+    border: none !important;
+}
+.section:nth-child(even){
+    background-color: purple;
+}
+
+#iDTech{
+    top:40px;
+    left:0px;
+    position: absolute;
+    width: 100%;
+} 
+#TAC{
+    top:540px;
+    left:0px;
+    position: absolute;
+}
+
+#TAB{
+    top:1040px;
+    left:0px;
+    position: absolute;
+   
+}
+
+#phone{
+    top:1540px;
+    left:0px;
+    position: absolute;
+}
+#FTC{
+    top:2040px;
+    left:0px;
+    position: absolute;
+}
+.words{
+    position: relative;
+    width:60%;
+    left:40%;
+ 
+}
+.title{
+    position: relative;
+    font-size: 150%;
+    width: 60%;
+    left:0%;
+    top:0%;
+    
+}
+.Position{
+    position: relative;
+    width: 80%;
+    font-size: 150%;
+    left:0%;
+    top:12%;
+}
+.Summary{
+    position: relative;
+    font-size: 100%;
+    width: 90%;
+    left:0%;
+    
+}
+.pics{
+    position: relative;
+    width: 40%;
+    left: 0%;
+    float: left;
+}
+img{
+    position: relative;
+    top:150px;
+    width: 150px;
+    height:150px;
+    left: 25%;
+    background: none;
+}
+footer{
+    position:relative;  
+    bottom:1px;
+    text-align:center;
+    width: 100%;
+}
+#goup{
+    scroll-behavior: smooth;
+    z-index:2;
+    position:fixed;
+    bottom: 65px;
+    width: 30px;
+    height: 30px;
+    right:20px;
+    background: black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    color: grey;
+    border-radius: 5px 5px 0px 0px;
+}
+#godown:hover, #goup:hover{
+   color: white;
+   
+}
+#godown, #goup{
+    scroll-behavior: smooth;
+}
+#godown{
+    position:fixed;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+    right:20px;
+    background: black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    color: grey;
+    z-index: 2;
+    border-radius: 0px 0px 5px 5px;
+}
