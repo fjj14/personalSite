@@ -37,7 +37,7 @@ html, body { overflow-x: hidden; }
 }
 #Front .col-12{
     position: relative;
-    top: 300px;
+    top: 200px;
 }
 #Background .col-12{
     padding-top: 2rem;

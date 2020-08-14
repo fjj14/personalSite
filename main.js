@@ -32,13 +32,13 @@ const port = 3000,
     res.writeHead(httpStatus.OK, contentTypes.jpg);
     utils.getFile("/public/img/project1.jpg", res);
   });
-  router.get("/project2.jpg", (req, res) => {
+  router.get("/public/img/project2.JPG", (req, res) => {
     res.writeHead(httpStatus.OK, contentTypes.jpg);
-    utils.getFile("/public/img/project2.jpg", res);
+    utils.getFile("/public/img/project2.JPG", res);
   });
-  router.get("/project3.jpg", (req, res) => {
+  router.get("/public/img/project3.JPG", (req, res) => {
     res.writeHead(httpStatus.OK, contentTypes.jpg);
-    utils.getFile("/public/img/project3.jpg", res);
+    utils.getFile("/public/img/project3.JPG", res);
   });
   
   http.createServer(router.handle).listen(port);          
