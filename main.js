@@ -34,7 +34,7 @@ const port = 3000,
   });
   router.get("/public/img/project2.jpg", (req, res) => {
     res.writeHead(httpStatus.OK, contentTypes.jpg);
-    utils.getFile("/project2.jpg", res);
+    utils.getFile("/public/img/project2.jpg", res);
   });
   router.get("/public/img/project3.jpg", (req, res) => {
     res.writeHead(httpStatus.OK, contentTypes.jpg);
