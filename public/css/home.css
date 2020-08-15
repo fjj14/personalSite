@@ -36,8 +36,7 @@ html, body { overflow-x: hidden; }
     background-size:cover;
 }
 #Front .col-12{
-    position: relative;
-    top: 120px;
+    padding-top: 10rem;
     
 }
 #Background .col-12{
