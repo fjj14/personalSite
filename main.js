@@ -24,7 +24,7 @@ const port = 3000,
     res.writeHead(httpStatus.OK, contentTypes.js);
     utils.getFile("/views/scroll.js", res);
   });
-  router.get("/background4.jpg", (req, res) => {
+  router.get("/public/img/background4.jpg", (req, res) => {
     res.writeHead(httpStatus.OK, contentTypes.jpg);
     utils.getFile("/public/img/background4.jpg", res);
   });
