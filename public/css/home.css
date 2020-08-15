@@ -32,7 +32,7 @@ html, body { overflow-x: hidden; }
 }
 #Front{
     height: 700px ;
-    background: url(/background4.jpg);
+    background: url(/background.jpg);
     background-size:cover;
 }
 #Front .col-12{
