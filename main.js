@@ -12,7 +12,7 @@ const port = 3000,
   
   router.get("/Resume.pdf", (req, res) => {
     res.writeHead(httpStatus.OK, contentTypes.pdf);
-    utils.getFile("/Resume.pdf", res);
+    utils.getFile("/Resume.pd", res);
   });
   
   router.get("/home.css", (req, res) => {
